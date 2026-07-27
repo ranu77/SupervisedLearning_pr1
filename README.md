@@ -1,80 +1,130 @@
-# 🏠 Predictive Insight Engine — House Price Prediction
+# 🏠 Predictive Insight Engine
 
-A supervised learning project to predict house prices using regression techniques, gradient descent optimization, and model diagnostics.
+## 📌 Project Overview
 
----
+This project focuses on predicting house prices using Supervised Learning Regression algorithms. The main objective is to compare different regression models, evaluate their performance, and identify the best model for accurate house price prediction.
 
-## 📌 Objective
-
-To design, implement, analyze, and evaluate multiple supervised learning models to predict house prices accurately and explain why certain models perform better than others.
+The project was developed as part of the Supervised Learning Practical (PR-1).
 
 ---
 
-## 📂 Project Structure
+## 🎯 Objectives
+
+- Understand Supervised Learning concepts.
+- Implement different regression algorithms.
+- Compare the performance of multiple regression models.
+- Evaluate models using standard evaluation metrics.
+- Analyze bias, variance, overfitting, and underfitting.
+- Understand the working of Gradient Descent optimization techniques.
+
+---
+
+## 📂 Dataset
+
+The dataset contains various house-related features such as:
+
+- House Area
+- Number of Bedrooms
+- Number of Bathrooms
+- Location Score
+- Age of Property
+- Distance from City Center
+- Garage Availability
+- Swimming Pool
+- Lot Size
+- Renovation Status
+
+**Target Variable:**
+- House Price
+
+---
+
+## 🛠 Technologies Used
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
+## 📚 Algorithms Implemented
+
+- Simple Linear Regression
+- Multiple Linear Regression
+- Polynomial Regression
+- Batch Gradient Descent
+- Stochastic Gradient Descent (SGD)
+- Mini-Batch Gradient Descent
+
+---
+
+## 📊 Model Evaluation Metrics
+
+The following evaluation metrics were used:
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+- Adjusted R² Score
+
+---
+
+## 📈 Project Workflow
+
+1. Import required libraries
+2. Load and explore the dataset
+3. Data visualization
+4. Data preprocessing
+5. Split dataset into training and testing sets
+6. Build Simple Linear Regression model
+7. Evaluate model performance
+8. Build Multiple Linear Regression model
+9. Build Polynomial Regression model
+10. Implement Gradient Descent methods
+11. Compare all models
+12. Analyze bias, variance, overfitting, and underfitting
+13. Draw final conclusions
+
+---
+
+## 📁 Repository Structure
 
 ```
-├── house_price_prediction.ipynb   # Main Jupyter Notebook
-├── RealEstate_HousePrice_Dataset_4200.csv  # Dataset
-├── README.md                      # Project Documentation
+Predictive-Insight-Engine/
+
+├── pr1.ipynb
+├── Dataset
+├── README.md
 ```
 
 ---
 
-## 📊 Dataset
+## ✅ Results
 
-| Feature | Description |
-|---|---|
-| `area_sqft` | Area of the house in square feet |
-| `bedrooms` | Number of bedrooms |
-| `bathrooms` | Number of bathrooms |
-| `location_score` | Score representing location quality |
-| `age_years` | Age of the property in years |
-| `distance_city_km` | Distance from city center in km |
-| `lot_size_sqft` | Lot size in square feet |
-| `has_garage` | Whether house has a garage (0/1) |
-| `has_pool` | Whether house has a pool (0/1) |
-| `renovation_years_ago` | Years since last renovation |
-| `house_price_inr` | **Target Variable** — House price in INR |
-
-- **Total Records:** 4,200
-- **Train/Test Split:** 80% / 20%
+- Compared multiple regression algorithms.
+- Evaluated each model using different performance metrics.
+- Analyzed model behavior and prediction accuracy.
+- Identified the best-performing model for house price prediction.
 
 ---
 
-## 🧠 Parts Covered
+## 💡 Conclusion
 
-| Part | Topic |
-|---|---|
-| A | Conceptual Understanding — Theory |
-| B | Dataset Understanding & Preparation |
-| C | Simple Linear Regression |
-| D | Model Evaluation Metrics |
-| E | Multiple Linear Regression |
-| F | Polynomial Regression |
-| G | Gradient Descent Optimization |
-| H | Bias-Variance & Model Diagnostics |
-| I | Final Analysis & Report |
-
----
-
-
-## 🛠️ Libraries Used
-
-```python
-numpy
-pandas
-matplotlib
-sklearn
-random
-```
-
----
-## 🎥 Video Explanation
-
-> https://drive.google.com/file/d/11dPueuoYr-58kAeuaTSKgcZGzo-GthRK/view?usp=sharing
+This project demonstrates how supervised learning techniques can be used to predict house prices effectively. Different regression models were implemented and compared to understand their strengths and limitations. The project also helped in understanding important machine learning concepts such as model evaluation, bias-variance trade-off, overfitting, underfitting, and gradient descent optimization.
 
 ---
 
 ## 👩‍💻 Author
 
-**Devanshi**
+**Devanshi Kanthariya**
+
+
+
+## 📹 Project Demonstration
+
+https://drive.google.com/file/d/11dPueuoYr-58kAeuaTSKgcZGzo-GthRK/view?usp=sharing
